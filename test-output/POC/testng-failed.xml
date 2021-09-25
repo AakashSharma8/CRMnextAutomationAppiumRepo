@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [POC]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="GPSEnableHamburgerScrolling(failed)">
+    <classes>
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2">
+        <methods>
+          <include name="gpsEnablecheck"/>
+        </methods>
+      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2 -->
+    </classes>
+  </test> <!-- GPSEnableHamburgerScrolling(failed) -->
+</suite> <!-- Failed suite [POC] -->

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POC">
+<listeners>
+<listener class-name = "resources.ExtentReporterNG"/>
+</listeners>
+  <test thread-count="5" name="GPSEnableHamburgerScrolling">
+    <classes>
+      <!--  class name="AppiumCRMpoc.AppiumCRMpocAI.Login_tc"/>-->
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1"/>
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc"/>
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2"/>
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+@Test
+public void loginTest(){
+
+sosln("login test");
+
+}
+
+
+
+@Test(dependsOnMethods="loginTest")
+
+
+
+
+-->Execute same test case multilpe times
+
+@Test(invocationCount =10){
+
+}
+
+@Test(timeOut=30000(in milisecond))//30sec to execeute this test case
+ExceptionTimeOutTest
+
+@Test(expectedExceptions=NumberFormatException.class)
+
+
+
+
+
+
+<test name ="hsd" >
+
+   <parameter name="url" value = "hhtp:crmnext.com" /> 
+   <parameter name="email" value = "abc@mail.in" /> 
+	
+@Test
+@Parameters({"url",emailid})
+
+
+
+
+
+//**
+Actions ac = new Actions(driver);
+ac.moveToElement(element).click();   --> click action method
+
+
+**//Perform Mouse Hover Action on the Web Element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
