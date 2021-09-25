@@ -6,31 +6,26 @@
   </listeners>
   <test verbose="0" name="GPSEnableHamburgerScrolling(failed)">
     <classes>
-      <class name="AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2">
-        <methods>
-          <include name="gpsEnablecheck"/>
-        </methods>
-      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2 -->
-      <class name="AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1">
-        <methods>
-          <include name="scrolling"/>
-        </methods>
-      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1 -->
       <class name="AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc">
         <methods>
           <include name="leadLayoutopened"/>
         </methods>
       </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc -->
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1">
+        <methods>
+          <include name="scrolling"/>
+        </methods>
+      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1 -->
       <class name="AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc">
         <methods>
           <include name="sortingbuttontest"/>
         </methods>
       </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc -->
-      <class name="AppiumCRMpoc.AppiumCRMpocAI.Login_tc">
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2">
         <methods>
-          <include name="logintest"/>
+          <include name="gpsEnablecheck"/>
         </methods>
-      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.Login_tc -->
+      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2 -->
     </classes>
   </test> <!-- GPSEnableHamburgerScrolling(failed) -->
 </suite> <!-- Failed suite [POC] -->

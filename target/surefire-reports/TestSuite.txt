@@ -1,54 +1,46 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 18.642 s <<< FAILURE! - in TestSuite
-AppiumCRMpoc.AppiumCRMpocAI.Login_tc.logintest  Time elapsed: 5.332 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 16.362 s <<< FAILURE! - in TestSuite
+AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1.scrolling  Time elapsed: 6.024 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Original error: Connection reset
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-G81NK99', ip: '192.168.222.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: AndroidDriver
-	at AppiumCRMpoc.AppiumCRMpocAI.Login_tc.logintest(Login_tc.java:16)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at AppiumCRMpoc.AppiumCRMpocAI.Login_tc.logintest(Login_tc.java:16)
-
-AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1.scrolling  Time elapsed: 2.081 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-G81NK99', ip: '192.168.222.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'DESKTOP-G81NK99', ip: '192.168.56.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: driver.version: AndroidDriver
 	at AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1.scrolling(hamburgerscrollable_tc_1.java:19)
-Caused by: java.net.ConnectException: Connection refused: connect
+Caused by: java.lang.reflect.InvocationTargetException
+	at AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1.scrolling(hamburgerscrollable_tc_1.java:19)
+Caused by: java.net.SocketException: Connection reset
 	at AppiumCRMpoc.AppiumCRMpocAI.hamburgerscrollable_tc_1.scrolling(hamburgerscrollable_tc_1.java:19)
 
-AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2.gpsEnablecheck  Time elapsed: 2.095 s  <<< FAILURE!
+AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc.leadLayoutopened  Time elapsed: 2.119 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
 Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-G81NK99', ip: '192.168.222.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'DESKTOP-G81NK99', ip: '192.168.56.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: driver.version: AndroidDriver
-	at AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2.gpsEnablecheck(gpsEnable_tc2.java:18)
+	at AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc.leadLayoutopened(LeadLayoutopencheck_tc.java:21)
 Caused by: java.net.ConnectException: Connection refused: connect
-	at AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2.gpsEnablecheck(gpsEnable_tc2.java:18)
+	at AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc.leadLayoutopened(LeadLayoutopencheck_tc.java:21)
 
-AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc.leadLayoutopened  Time elapsed: 2.166 s  <<< FAILURE!
+AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2.gpsEnablecheck  Time elapsed: 2.098 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
 Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-G81NK99', ip: '192.168.222.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'DESKTOP-G81NK99', ip: '192.168.56.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: driver.version: AndroidDriver
-	at AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc.leadLayoutopened(LeadLayoutopencheck_tc.java:16)
+	at AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2.gpsEnablecheck(gpsEnable_tc2.java:20)
 Caused by: java.net.ConnectException: Connection refused: connect
-	at AppiumCRMpoc.AppiumCRMpocAI.LeadLayoutopencheck_tc.leadLayoutopened(LeadLayoutopencheck_tc.java:16)
+	at AppiumCRMpoc.AppiumCRMpocAI.gpsEnable_tc2.gpsEnablecheck(gpsEnable_tc2.java:20)
 
-AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc.sortingbuttontest  Time elapsed: 2.076 s  <<< FAILURE!
+AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc.sortingbuttontest  Time elapsed: 2.09 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
 Connection refused: connect
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-G81NK99', ip: '192.168.222.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'DESKTOP-G81NK99', ip: '192.168.56.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: driver.version: AndroidDriver
-	at AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc.sortingbuttontest(SortingButtoncheck_tc.java:18)
+	at AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc.sortingbuttontest(SortingButtoncheck_tc.java:21)
 Caused by: java.net.ConnectException: Connection refused: connect
-	at AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc.sortingbuttontest(SortingButtoncheck_tc.java:18)
+	at AppiumCRMpoc.AppiumCRMpocAI.SortingButtoncheck_tc.sortingbuttontest(SortingButtoncheck_tc.java:21)
 
