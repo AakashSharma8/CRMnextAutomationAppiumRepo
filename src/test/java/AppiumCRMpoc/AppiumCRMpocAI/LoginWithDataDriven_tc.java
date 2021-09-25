@@ -120,7 +120,7 @@ public class LoginWithDataDriven_tc extends BaseClass {
 
 				String celldata = r.getCellData("Login", j, i);
 				System.out.println(celldata + "   ");
-				data[i-2][j] = celldata;
+				data[i - 2][j] = celldata;
 
 			}
 
