@@ -17,6 +17,7 @@ public class Login_tc extends BaseClass {
 	@Test
 	public void logintest() throws IOException {
 
+		service = startServer();
 		AndroidDriver<WebElement> driver = capabilities("gold7app");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -40,17 +41,17 @@ public class Login_tc extends BaseClass {
 		
 		//driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS) ;
 		
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 7);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='SKIP']"))).click();
 		
 	//	driver.findElement(By.xpath("//*[@text='SKIP']")).click();
 
 		
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
+		driver.manage().timeouts().implicitlyWait(7,TimeUnit.SECONDS) ;
 		
 		continuePage cp = new continuePage(driver);
 		cp.cont();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 
 		loginPage lp = new loginPage(driver);
 		lp.enterusername().sendKeys("Akash");
@@ -58,7 +59,7 @@ public class Login_tc extends BaseClass {
 		lp.enterpass().sendKeys("acid_qa");
 		
 		lp.loginclick();
-
+		service.stop();
 	}
 
 }

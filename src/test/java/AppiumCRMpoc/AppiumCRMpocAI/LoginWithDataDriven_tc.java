@@ -24,7 +24,7 @@ public class LoginWithDataDriven_tc extends BaseClass {
 		service = startServer();
 
 		AndroidDriver<WebElement> driver = capabilities("gold7app");
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 
 		Boolean isPresent = driver.findElements(MobileBy.xpath("//*[@text='While using the app']")).size() > 0;
 

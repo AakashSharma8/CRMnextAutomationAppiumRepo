@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57130" started-at="2021-09-25T05:04:00Z" finished-at="2021-09-25T05:04:58Z">
+  <suite name="Default suite" duration-ms="72587" started-at="2021-09-25T17:20:48Z" finished-at="2021-09-25T17:22:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57130" started-at="2021-09-25T05:04:00Z" finished-at="2021-09-25T05:04:58Z">
+    <test name="Default test" duration-ms="72587" started-at="2021-09-25T17:20:48Z" finished-at="2021-09-25T17:22:00Z">
       <class name="AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc">
-        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc@3d99d22e]" name="logintest" duration-ms="29183" started-at="2021-09-25T10:34:02Z" data-provider="test1data" finished-at="2021-09-25T10:34:31Z">
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc@3d99d22e]" name="logintest" duration-ms="37155" started-at="2021-09-25T22:50:49Z" data-provider="test1data" finished-at="2021-09-25T22:51:27Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc@3d99d22e]" name="logintest" duration-ms="26120" started-at="2021-09-25T10:34:31Z" data-provider="test1data" finished-at="2021-09-25T10:34:58Z">
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc@3d99d22e]" name="logintest" duration-ms="33624" started-at="2021-09-25T22:51:27Z" data-provider="test1data" finished-at="2021-09-25T22:52:00Z">
           <params>
             <param index="0">
               <value>

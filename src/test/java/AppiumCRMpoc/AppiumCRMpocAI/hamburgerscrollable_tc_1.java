@@ -16,6 +16,9 @@ public class hamburgerscrollable_tc_1 extends BaseClass{
 
 	@Test
 	public void scrolling() throws IOException{
+		
+		service = startServer();
+		
 	AndroidDriver<WebElement> driver = capabilities("gold7app");
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 	
@@ -44,7 +47,7 @@ public class hamburgerscrollable_tc_1 extends BaseClass{
 	
 	System.out.println("Scrolled upto Setting successfully");
 	
-	
+	service.stop();
 	
 	//Hamburger list of objects
 	/*List<WebElement> bd = driver.findElementsById("com.crmnextmobile.crmnextofflineplay:id/parent_view");

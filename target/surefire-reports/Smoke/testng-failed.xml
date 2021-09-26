@@ -3,11 +3,6 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke]">
   <test verbose="0" name="LoginTest(failed)">
     <classes>
-      <class name="AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc">
-        <methods>
-          <include name="logintest" invocation-numbers="0 1"/>
-        </methods>
-      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc -->
       <class name="AppiumCRMpoc.AppiumCRMpocAI.Login_tc">
         <methods>
           <include name="logintest"/>
