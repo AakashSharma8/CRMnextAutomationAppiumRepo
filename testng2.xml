@@ -4,7 +4,7 @@
 	<test thread-count="5" name="LoginTest">
 		<classes>
 
-			<class name="AppiumCRMpoc.AppiumCRMpocAI.Login_tc" />
+			<!--<class name="AppiumCRMpoc.AppiumCRMpocAI.Login_tc" />-->
 			<class name="AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc" />
 		</classes>
 	</test> <!-- Test -->

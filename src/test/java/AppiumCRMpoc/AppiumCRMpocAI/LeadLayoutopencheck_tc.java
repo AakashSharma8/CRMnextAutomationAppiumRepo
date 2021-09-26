@@ -55,7 +55,7 @@ public class LeadLayoutopencheck_tc extends BaseClass {
 				.presenceOfElementLocated(By.xpath("//android.view.View[@text='China Traditional Aakash']")));
 
 		// getting lead layout data
-
+		// getting lead layout data
 		Xls_Reader reader = new Xls_Reader(
 				"C:\\Users\\Akash Sharma\\Desktop\\selenium\\eclipse-jee-mars-2-win32-x86_64\\eclipse\\AppiumCRMpocAI\\src\\main\\java\\com\\excel\\lib\\util\\LeadLayoutInputs.xlsx");
 
