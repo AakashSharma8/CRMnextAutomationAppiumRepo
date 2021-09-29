@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-	public class HamburgerDrawer {
+public class HamburgerDrawer {
 
 	public HamburgerDrawer(AndroidDriver<WebElement> driver) {
 
@@ -19,19 +19,26 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 	@FindBy(id = "com.crmnextmobile.crmnextofflineplay:id/iv_drawer")
 	public WebElement drawer;
 
-	
 	@FindBy(xpath = "//android.widget.TextView[@text='Leads_P']")
 	public WebElement lead;
-	
-	public WebElement getdrawer(){
-		
+
+	@FindBy(xpath = "//android.widget.ImageView[@resource-id='com.crmnextmobile.crmnextofflineplay:id/img_logout']")
+	public WebElement logout;
+
+	public WebElement getdrawer() {
+
 		return drawer;
-		
+
 	}
-	
+
 	public void leadobject() {
 
 		lead.click();
 	}
-	
+
+	public void logout() {
+
+		logout.click();
+	}
+
 }

@@ -5,7 +5,7 @@
     <classes>
       <class name="AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc">
         <methods>
-          <include name="logintest" invocation-numbers="0"/>
+          <include name="logintest" invocation-numbers="1"/>
         </methods>
       </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc -->
     </classes>

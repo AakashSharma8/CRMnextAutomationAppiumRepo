@@ -20,9 +20,12 @@ public class loginPage {
 
 	@FindBy(xpath = "//*[@resource-id='TxtPassword']")
 	public WebElement pass;
-	
+
 	@FindBy(xpath = "//*[@text='Login']")
 	public WebElement login;
+
+	@FindBy(xpath = "//*[@text='Invalid User Name or Password.']")
+	public WebElement InUSNM_PSWD;
 
 	public WebElement enterusername() {
 
@@ -36,8 +39,14 @@ public class loginPage {
 
 	}
 
-	public void loginclick(){
-		
+	public void loginclick() {
+
 		login.click();
+	}
+	
+	public WebElement invalidUsnmPass(){
+		
+		return InUSNM_PSWD;
+		
 	}
 }

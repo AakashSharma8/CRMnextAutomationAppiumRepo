@@ -19,7 +19,7 @@ import io.appium.java_client.android.AndroidDriver;
 public class LoginWithDataDriven_tc extends BaseClass {
 
 	@Test(dataProvider = "test1data")
-	public void logintest(String usname, String password) throws IOException {
+	public void logintest(String usname, String password) throws IOException, InterruptedException {
 
 		service = startServer();
 
@@ -83,7 +83,22 @@ public class LoginWithDataDriven_tc extends BaseClass {
 				lp.enterpass().sendKeys(String.valueOf(password));
 
 				lp.loginclick();
-				service.stop();
+				Thread.sleep(3000);
+				Boolean uppresent = driver.findElements(By.xpath("//*[@text='Invalid User Name or Password.']"))
+						.size() > 0;
+
+				if (!uppresent) {
+
+					WebDriverWait waituser = new WebDriverWait(driver, 15);
+					waituser.until(ExpectedConditions.presenceOfElementLocated(
+							By.xpath("//*[@resource-id='com.crmnextmobile.crmnextofflineplay:id/iv_drawer']")));
+					HamburgerDrawer hb = new HamburgerDrawer(driver);
+					hb.drawer.click();
+					hb.logout.click();
+					service.stop();
+				} else {
+					service.stop();
+				}
 
 			} catch (NullPointerException npe) {
 				System.out.println("Input Strings can't be balnked");
