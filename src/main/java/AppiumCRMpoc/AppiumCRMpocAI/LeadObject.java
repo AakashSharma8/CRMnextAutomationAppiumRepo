@@ -1,5 +1,6 @@
 package AppiumCRMpoc.AppiumCRMpocAI;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -22,12 +23,19 @@ public class LeadObject {
 	@FindBy(id = "com.crmnextmobile.crmnextofflineplay:id/fab")
 	public WebElement newbutton;
 
+	@FindBy(id = "com.crmnextmobile.crmnextofflineplay:id/action_search")
+	public WebElement quicksearchbutton;
+
+	@FindBy(xpath = "//*[@resource-id ='com.crmnextmobile.crmnextofflineplay:id/search_src_text']")
+	public WebElement searchText;
+
+	@FindBy(xpath = "//*[@resource-id ='com.crmnextmobile.crmnextofflineplay:id/recycle_leads']//android.view.ViewGroup")
+	public List<WebElement> leaddata;
+
 	public void newbutton() {
 
-		
 		newbutton.click();
-		
+
 	}
-	
 
 }

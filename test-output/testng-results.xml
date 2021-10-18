@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke" duration-ms="141599" started-at="2021-09-29T03:28:51Z" finished-at="2021-09-29T03:31:13Z">
+  <suite name="Default suite" duration-ms="72936" started-at="2021-10-12T13:25:30Z" finished-at="2021-10-12T13:26:43Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="141599" started-at="2021-09-29T03:28:51Z" finished-at="2021-09-29T03:31:13Z">
-      <class name="AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc">
-        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc@3d99d22e]" name="logintest" duration-ms="53666" started-at="2021-09-29T08:58:54Z" data-provider="test1data" finished-at="2021-09-29T08:59:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Akash]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[acidqa_]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="72936" started-at="2021-10-12T13:25:30Z" finished-at="2021-10-12T13:26:43Z">
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.TaskFromLeadDetail_tc">
+        <test-method status="PASS" signature="TaskcreationfromLeaddetail()[pri:0, instance:AppiumCRMpoc.AppiumCRMpocAI.TaskFromLeadDetail_tc@627551fb]" name="TaskcreationfromLeaddetail" duration-ms="72864" started-at="2021-10-12T18:55:31Z" finished-at="2021-10-12T18:56:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc@3d99d22e]" name="logintest" duration-ms="37506" started-at="2021-09-29T08:59:48Z" data-provider="test1data" finished-at="2021-09-29T09:00:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jessi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Abc%123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc@3d99d22e]" name="logintest" duration-ms="47550" started-at="2021-09-29T09:00:25Z" data-provider="test1data" finished-at="2021-09-29T09:01:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[A001]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Apple@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintest -->
-      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc -->
-    </test> <!-- LoginTest -->
-  </suite> <!-- Smoke -->
+        </test-method> <!-- TaskcreationfromLeaddetail -->
+      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.TaskFromLeadDetail_tc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

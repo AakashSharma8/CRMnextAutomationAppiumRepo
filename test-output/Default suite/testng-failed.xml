@@ -3,11 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc">
+      <class name="AppiumCRMpoc.AppiumCRMpocAI.TaskFromLeadDetail_tc">
         <methods>
-          <include name="logintest" invocation-numbers="1"/>
+          <include name="TaskcreationfromLeaddetail"/>
         </methods>
-      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.LoginWithDataDriven_tc -->
+      </class> <!-- AppiumCRMpoc.AppiumCRMpocAI.TaskFromLeadDetail_tc -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

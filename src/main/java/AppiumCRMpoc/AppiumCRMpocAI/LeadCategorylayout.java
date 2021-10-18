@@ -21,7 +21,7 @@ public class LeadCategorylayout {
 	
 	//driver.findElement(By.xpath("//android.widget.TextView[@text='Multilingual Layout']"))
 		
-	@FindBy(xpath="//android.widget.TextView[@text='China Traditional Aakash']")
+	@FindBy(xpath="//android.widget.TextView[@text='QA Layout']")
 	public WebElement selectlayout;
 
 	public void selectLayout() {

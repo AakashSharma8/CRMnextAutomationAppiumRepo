@@ -65,14 +65,15 @@ public class BaseClass {
 
 		DesiredCapabilities dc = new DesiredCapabilities();
 
+		//dc.setCapability("fullReset", true);
 		dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "APPIUM");
-		dc.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "120");
+		dc.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "160");
 		dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11.0");
 		dc.setCapability(MobileCapabilityType.DEVICE_NAME, prop.get("device"));
 		dc.setCapability("appPackage", "com.crmnextmobile.crmnextofflineplay");
 		// dc.setCapability("appActivity", ".login.ActivityLogin t130");
-		dc.setCapability("appActivity", ".qr.QrScannerActivity t50");
+		dc.setCapability("appActivity", ".login.ActivityLogin t2735");
 		dc.setCapability("noReset", true);
 
 		dc.setCapability(MobileCapabilityType.APP, f.getAbsolutePath());

@@ -27,6 +27,14 @@ public class loginPage {
 	@FindBy(xpath = "//*[@text='Invalid User Name or Password.']")
 	public WebElement InUSNM_PSWD;
 
+	//android.widget.CheckBox
+	
+	@FindBy(xpath = "//android.widget.CheckBox")
+	public WebElement checkbox;
+
+	@FindBy(xpath = "//*[@resource-id='chkShow']")
+	public WebElement chkshow;
+
 	public WebElement enterusername() {
 
 		return username;

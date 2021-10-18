@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 137.112 s <<< FAILURE! - in TestSuite
-AppiumCRMpoc.AppiumCRMpocAI.Login_tc.logintest  Time elapsed: 66.391 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-G81NK99', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Akash Sharma\Deskt..., appActivity: .qr.QrScannerActivity t50, appPackage: com.crmnextmobile.crmnextof..., automationName: APPIUM, databaseEnabled: false, desired: {app: C:\Users\Akash Sharma\Deskt..., appActivity: .qr.QrScannerActivity t50, appPackage: com.crmnextmobile.crmnextof..., automationName: APPIUM, deviceName: PVLBTCAE4L5SSGM7, newCommandTimeout: 120, noReset: true, platformName: android, platformVersion: 11.0}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3171, deviceName: PVLBTCAE4L5SSGM7, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: PVLBTCAE4L5SSGM7, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 120, noReset: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: de968a0e-0fdc-4a9e-bdc5-84d072e07abc
-*** Element info: {Using=xpath, value=//*[@text='While using the app']}
-	at AppiumCRMpoc.AppiumCRMpocAI.Login_tc.logintest(Login_tc.java:25)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 191.042 s - in TestSuite
